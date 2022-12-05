@@ -15,7 +15,7 @@ o = {
 
 def part1():
     score = 0
-    with open("input_2.txt") as f:
+    with open("input.txt") as f:
         for line in f:
             l = line.split(" ")
             you = w[l[0][0]]
@@ -32,7 +32,7 @@ def part1():
 
 def part2():
     score = 0
-    with open("input_2.txt") as f:
+    with open("input.txt") as f:
         for line in f:
             l = line.split(" ")
             you = w[l[0][0]]
@@ -54,3 +54,6 @@ def part2():
                 else:
                     score += me
     print(score)
+
+part1()
+part2()

@@ -2,7 +2,7 @@ def get_cals_per_elf():
     cals = []
     current_elf_cals = 0
 
-    with open("input_1.txt") as f:
+    with open("input.txt") as f:
         for line in f:
             try:
                 current_elf_cals += int(line)
@@ -24,3 +24,6 @@ def part2():
         top3 += top_cal
         cals.remove(top_cal)
     print(top3)
+
+part1()
+part2()

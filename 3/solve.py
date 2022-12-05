@@ -3,7 +3,7 @@ u = ord("A") - 27
 
 def part1():
     sum = 0
-    with open("input_3.txt") as f:
+    with open("input.txt") as f:
         for line in f:
             rucksack = line.strip()
             lengthhalf = len(rucksack) // 2
@@ -20,7 +20,7 @@ def part1():
 
 def part2():
     sum = 0
-    with open("input_3.txt") as f:
+    with open("input.txt") as f:
         lines = f.readlines()
         no_of_lines = len(lines)
         for i in range(0, len(lines), 3):

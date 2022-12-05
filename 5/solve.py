@@ -1,7 +1,7 @@
 import re
 
 def part1():
-    with open("input_5.txt") as f:
+    with open("input.txt") as f:
         crates = []
         s = []
         commands = []
@@ -38,7 +38,7 @@ def part1():
         print(res)
 
 def part2():
-    with open("input_5.txt") as f:
+    with open("input.txt") as f:
         crates = []
         s = []
         commands = []

@@ -1,5 +1,5 @@
 elf_pairs = []
-with open("input_4.txt") as f:
+with open("input.txt") as f:
     for line in f:
         line = line.strip().replace(",", "-")
         e = tuple([int(x) for x in line.split("-")])
