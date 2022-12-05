@@ -25,8 +25,6 @@ def part1():
             a.reverse()
 
         for amount, f, t in commands: # do the moves
-            print(amount, f, t)
-            print(s)
             for _ in range(amount + 1):
                 s[t].append(s[f].pop())
 
@@ -77,4 +75,5 @@ def part2():
 
         print(res)
 
+part1()
 part2()
